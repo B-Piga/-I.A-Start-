@@ -11,7 +11,7 @@ local arestas = {
 [9] = {7},
 }
 -- define qual sera o início
-local inicial = 5
+local inicial = 3
 
 -- vetores auxiliares
 local fila = {}
@@ -65,5 +65,5 @@ print('Resultado: ')
 for i=1, #visitados, 1 do
    print("[", i, "] -> ", visitados[i])
 end
-
---desafio hardcore memo alek , garai
+--o
+-- como q eu 
