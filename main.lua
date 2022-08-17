@@ -57,7 +57,7 @@ while (#fila > 0) do
   for i=1, #fila, 1 do
     io.write(fila[i], " | ")
   end
-  io.write("\n\n") -- voces não prestam pra nada, cambada de lixo
+  io.write("\n\n")
   
 end 
 
