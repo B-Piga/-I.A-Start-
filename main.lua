@@ -1,17 +1,18 @@
 -- cria o grafo na memória com os vértices e as arestas
 local arestas = {
 [1] = {2},
-[2] = {1,3},
-[3] = {2,4,5},
-[4] = {3,5,6},
-[5] = {3,4,6},
-[6] = {4,5,7},
-[7] = {6,8,9},
-[8] = {7},
-[9] = {7},
+[2] = {1,4},
+[3] = {1,5,6},
+[4] = {2,6},
+[5] = {3,6,8},
+[6] = {1,3,4,5,8},
+[7] = {5,9,10},
+[8] = {6,5,9},
+[9] = {7,8,10},
+[10]= {7,9}
 }
 -- define qual sera o início
-local inicial = 3
+local inicial = 2
 
 -- vetores auxiliares
 local fila = {}
@@ -65,5 +66,3 @@ print('Resultado: ')
 for i=1, #visitados, 1 do
    print("[", i, "] -> ", visitados[i])
 end
---o
--- como q eu 
